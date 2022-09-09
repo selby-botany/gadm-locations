@@ -64,9 +64,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
     def country_config(self):
-        with open(self.config['system']['taskdir'] + '/countries.csv') as country_config:
-            reader = csv.reader(country_config)
-            result = { r[0]:{ 'iso_3': r[0], 'country': r[1], 'subregion': r[2], 'continent': r[3] } for r in reader}
+        with open('unsd-m49.csv','r') as file:
+            reader = csv.DictReader(file)
+            result = { r['country_area_iso_alpha3_code']:{ 
+                                                            'iso_3': r['country_area_iso_alpha3_code'],
+                                                            'region': r['region_name'],
+                                                            'subregion': r['sub_region_name'],
+                                                            'intermediate-region': r['intermediate_region_name'],
+                                                            'country': r['country_area_name'],
+                                                         } for r in reader }
             return result
 
 
@@ -80,8 +86,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         taskdir = os.path.dirname(os.path.realpath(sys.argv[0]))
         taskdotdir = os.path.expanduser(f'{pathlib.Path.home()}/.gqc')
         result = {
-                    'input-file': '/dev/stdin',
+                    'default-country-code': '',
                     'first-line-is-header': True,
+                    'input-file': '/dev/stdin',
                     'log-file': f'{taskdotdir}/log/{timestamp}.log',
                     'log-level': 'DEBUG',
                     'logging' : {
@@ -109,7 +116,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
     def execute(self):
         countries = self.country_config()
-        output_columns = ['iso_3', 'continent', 'subregion', 'country', 'pd1', 'pd2', 'pd3', 'pd4', 'pd5']
+        output_columns = ['iso_3', 'region', 'subregion', 'intermediate-region', 'country', 'pd1', 'pd2', 'pd3', 'pd4', 'pd5']
         selected_properties = {
                                 'GID_0': 'iso_3',
                                 'COUNTRY': 'country',
@@ -168,7 +175,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                         }
 
                         '''
-                        if properties['GID_0'] in countries:
+                        iso3 = properties['GID_0']
+                        if not iso3 and self.config['default-country-code']:
+                            iso3 = self.config['default-country-code']
+                        if iso3 in countries:
                             names = { k:'' for k in output_columns }
                             names |= countries[properties['GID_0']] 
                             names |= { v:properties[k] for (k,v) in selected_properties.items() if k in properties }
@@ -190,8 +200,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         assert type(argv) == list, f'Need argv to be list: found [{type(argv)}]{argv}'
         result = self.default_configuration()
         try:
-            opts, _args = getopt.getopt(argv, 'fhi:L:l:no:', [
+            opts, _args = getopt.getopt(argv, 'c:fhi:L:l:no:', [
                                              'copyright',
+                                             'default-country-code',
                                              'first-line-is-header',
                                              'header',
                                              'help',
@@ -205,8 +216,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                 if opt in ['--copyright']:
                     print(self.copyright())
                     sys.exit()
+                elif opt in ['-c', '--default-country-code']:
+                    result['default-country-code'] = arg
                 elif opt in ['-f', '--header', '--first-line-is-header']:
-                    result[Config.SECTION_GQC]['first-line-is-header'] = True
+                    result['first-line-is-header'] = True
                 elif opt in ['-h', '--help']:
                     print(self.usage())
                     sys.exit()
@@ -223,7 +236,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                     if not isinstance(l, int): raise ValueError(f'Invalid log level: {arg}')
                     result['log-level'] = arg
                 elif opt in ['-n', '--noheader', '--no-header']:
-                    result[Config.SECTION_GQC]['first-line-is-header'] = False
+                    result['first-line-is-header'] = False
                 elif opt in ['-o', '--output', '--output-file']:
                     path = os.path.realpath(arg)
                     if not Validate.file_writable(path): raise ValueError(f'Can not write to output file: {path}')
@@ -254,6 +267,8 @@ unless the --output option is given.
 
 
       --copyright              Display the copyright and exit
+  -c, --default-country-code code
+                               Provide a default country code (see below)
   -f, --first-line-is-header   Treat the first row of the input file as a header -- the
                                second line of the input file is the first record
                                processed.
@@ -267,11 +282,17 @@ unless the --output option is given.
   -n, --noheader, --no-header  Treat the first row of the input file as data -- not as a header
   -o, --output file            Output file; defaults to {defaults['output-file']}
       --                       Terminates the list of options
+
+A few GADM country files have features whose country code is invalid. Rather than skipping the record
+(the default behavior) this country code will be used instead.
+
 '''
 
 
 if __name__ == '__main__':
     try:
         sys.exit(GadmNames.instance(sys.argv[1:]).execute())
+    except BrokenPipeError as _:
+        pass
     except KeyboardInterrupt as _:
         pass

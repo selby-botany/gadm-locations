@@ -1,0 +1,250 @@
+global_name,region_name,sub_region_name,intermediate_region_name,country_area_name,country_area_m49_code,country_area_iso_alpha3_code,country_area_least_developed_countries_ldc,country_area_land_locked_developing_countries_lldc,country_area_small_island_developing_states_sids,country_area_development_status
+World,Africa,Northern Africa,,Algeria,12,DZA,,,,Developing
+World,Africa,Northern Africa,,Egypt,818,EGY,,,,Developing
+World,Africa,Northern Africa,,Libya,434,LBY,,,,Developing
+World,Africa,Northern Africa,,Morocco,504,MAR,,,,Developing
+World,Africa,Northern Africa,,Sudan,729,SDN,x,,,Developing
+World,Africa,Northern Africa,,Tunisia,788,TUN,,,,Developing
+World,Africa,Northern Africa,,Western Sahara,732,ESH,,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,British Indian Ocean Territory,86,IOT,,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Burundi,108,BDI,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Comoros,174,COM,x,,x,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Djibouti,262,DJI,x,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Eritrea,232,ERI,x,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Ethiopia,231,ETH,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,French Southern Territories,260,ATF,,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Kenya,404,KEN,,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Madagascar,450,MDG,x,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Malawi,454,MWI,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Mauritius,480,MUS,,,x,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Mayotte,175,MYT,,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Mozambique,508,MOZ,x,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Réunion,638,REU,,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Rwanda,646,RWA,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Seychelles,690,SYC,,,x,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Somalia,706,SOM,x,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,South Sudan,728,SSD,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Uganda,800,UGA,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,United Republic of Tanzania,834,TZA,x,,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Zambia,894,ZMB,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Eastern Africa,Zimbabwe,716,ZWE,,x,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Angola,24,AGO,x,,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Cameroon,120,CMR,,,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Central African Republic,140,CAF,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Chad,148,TCD,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Congo,178,COG,,,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Democratic Republic of the Congo,180,COD,x,,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Equatorial Guinea,226,GNQ,,,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Gabon,266,GAB,,,,Developing
+World,Africa,Sub-Saharan Africa,Middle Africa,Sao Tome and Principe,678,STP,x,,x,Developing
+World,Africa,Sub-Saharan Africa,Southern Africa,Botswana,72,BWA,,x,,Developing
+World,Africa,Sub-Saharan Africa,Southern Africa,Eswatini,748,SWZ,,x,,Developing
+World,Africa,Sub-Saharan Africa,Southern Africa,Lesotho,426,LSO,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Southern Africa,Namibia,516,NAM,,,,Developing
+World,Africa,Sub-Saharan Africa,Southern Africa,South Africa,710,ZAF,,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Benin,204,BEN,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Burkina Faso,854,BFA,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Cabo Verde,132,CPV,,,x,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Côte d'Ivoire,384,CIV,,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Gambia,270,GMB,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Ghana,288,GHA,,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Guinea,324,GIN,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Guinea-Bissau,624,GNB,x,,x,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Liberia,430,LBR,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Mali,466,MLI,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Mauritania,478,MRT,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Niger,562,NER,x,x,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Nigeria,566,NGA,,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Saint Helena,654,SHN,,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Senegal,686,SEN,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Sierra Leone,694,SLE,x,,,Developing
+World,Africa,Sub-Saharan Africa,Western Africa,Togo,768,TGO,x,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Anguilla,660,AIA,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Antigua and Barbuda,28,ATG,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Aruba,533,ABW,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Bahamas,44,BHS,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Barbados,52,BRB,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Bonaire, Sint Eustatius and Saba,535,BES,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,British Virgin Islands,92,VGB,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Cayman Islands,136,CYM,,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Cuba,192,CUB,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Curaçao,531,CUW,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Dominica,212,DMA,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Dominican Republic,214,DOM,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Grenada,308,GRD,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Guadeloupe,312,GLP,,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Haiti,332,HTI,x,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Jamaica,388,JAM,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Martinique,474,MTQ,,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Montserrat,500,MSR,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Puerto Rico,630,PRI,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Saint Barthélemy,652,BLM,,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Saint Kitts and Nevis,659,KNA,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Saint Lucia,662,LCA,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Saint Martin (French Part),663,MAF,,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Saint Vincent and the Grenadines,670,VCT,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Sint Maarten (Dutch part),534,SXM,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Trinidad and Tobago,780,TTO,,,x,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,Turks and Caicos Islands,796,TCA,,,,Developing
+World,Americas,Latin America and the Caribbean,Caribbean,United States Virgin Islands,850,VIR,,,x,Developing
+World,Americas,Latin America and the Caribbean,Central America,Belize,84,BLZ,,,x,Developing
+World,Americas,Latin America and the Caribbean,Central America,Costa Rica,188,CRI,,,,Developing
+World,Americas,Latin America and the Caribbean,Central America,El Salvador,222,SLV,,,,Developing
+World,Americas,Latin America and the Caribbean,Central America,Guatemala,320,GTM,,,,Developing
+World,Americas,Latin America and the Caribbean,Central America,Honduras,340,HND,,,,Developing
+World,Americas,Latin America and the Caribbean,Central America,Mexico,484,MEX,,,,Developing
+World,Americas,Latin America and the Caribbean,Central America,Nicaragua,558,NIC,,,,Developing
+World,Americas,Latin America and the Caribbean,Central America,Panama,591,PAN,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Argentina,32,ARG,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Bolivia (Plurinational State of),68,BOL,,x,,Developing
+World,Americas,Latin America and the Caribbean,South America,Bouvet Island,74,BVT,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Brazil,76,BRA,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Chile,152,CHL,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Colombia,170,COL,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Ecuador,218,ECU,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Falkland Islands (Malvinas),238,FLK,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,French Guiana,254,GUF,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Guyana,328,GUY,,,x,Developing
+World,Americas,Latin America and the Caribbean,South America,Paraguay,600,PRY,,x,,Developing
+World,Americas,Latin America and the Caribbean,South America,Peru,604,PER,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,South Georgia and the South Sandwich Islands,239,SGS,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Suriname,740,SUR,,,x,Developing
+World,Americas,Latin America and the Caribbean,South America,Uruguay,858,URY,,,,Developing
+World,Americas,Latin America and the Caribbean,South America,Venezuela (Bolivarian Republic of),862,VEN,,,,Developing
+World,Americas,Northern America,,Bermuda,60,BMU,,,,Developed
+World,Americas,Northern America,,Canada,124,CAN,,,,Developed
+World,Americas,Northern America,,Greenland,304,GRL,,,,Developed
+World,Americas,Northern America,,Saint Pierre and Miquelon,666,SPM,,,,Developed
+World,Americas,Northern America,,United States of America,840,USA,,,,Developed
+World,,,,Antarctica,10,ATA,,,,
+World,Asia,Central Asia,,Kazakhstan,398,KAZ,,x,,Developing
+World,Asia,Central Asia,,Kyrgyzstan,417,KGZ,,x,,Developing
+World,Asia,Central Asia,,Tajikistan,762,TJK,,x,,Developing
+World,Asia,Central Asia,,Turkmenistan,795,TKM,,x,,Developing
+World,Asia,Central Asia,,Uzbekistan,860,UZB,,x,,Developing
+World,Asia,Eastern Asia,,China,156,CHN,,,,Developing
+World,Asia,Eastern Asia,,China, Hong Kong Special Administrative Region,344,HKG,,,,Developing
+World,Asia,Eastern Asia,,China, Macao Special Administrative Region,446,MAC,,,,Developing
+World,Asia,Eastern Asia,,Democratic People's Republic of Korea,408,PRK,,,,Developing
+World,Asia,Eastern Asia,,Japan,392,JPN,,,,Developed
+World,Asia,Eastern Asia,,Mongolia,496,MNG,,x,,Developing
+World,Asia,Eastern Asia,,Republic of Korea,410,KOR,,,,Developing
+World,Asia,South-eastern Asia,,Brunei Darussalam,96,BRN,,,,Developing
+World,Asia,South-eastern Asia,,Cambodia,116,KHM,x,,,Developing
+World,Asia,South-eastern Asia,,Indonesia,360,IDN,,,,Developing
+World,Asia,South-eastern Asia,,Lao People's Democratic Republic,418,LAO,x,x,,Developing
+World,Asia,South-eastern Asia,,Malaysia,458,MYS,,,,Developing
+World,Asia,South-eastern Asia,,Myanmar,104,MMR,x,,,Developing
+World,Asia,South-eastern Asia,,Philippines,608,PHL,,,,Developing
+World,Asia,South-eastern Asia,,Singapore,702,SGP,,,x,Developing
+World,Asia,South-eastern Asia,,Thailand,764,THA,,,,Developing
+World,Asia,South-eastern Asia,,Timor-Leste,626,TLS,x,,x,Developing
+World,Asia,South-eastern Asia,,Viet Nam,704,VNM,,,,Developing
+World,Asia,Southern Asia,,Afghanistan,4,AFG,x,x,,Developing
+World,Asia,Southern Asia,,Bangladesh,50,BGD,x,,,Developing
+World,Asia,Southern Asia,,Bhutan,64,BTN,x,x,,Developing
+World,Asia,Southern Asia,,India,356,IND,,,,Developing
+World,Asia,Southern Asia,,Iran (Islamic Republic of),364,IRN,,,,Developing
+World,Asia,Southern Asia,,Maldives,462,MDV,,,x,Developing
+World,Asia,Southern Asia,,Nepal,524,NPL,x,x,,Developing
+World,Asia,Southern Asia,,Pakistan,586,PAK,,,,Developing
+World,Asia,Southern Asia,,Sri Lanka,144,LKA,,,,Developing
+World,Asia,Western Asia,,Armenia,51,ARM,,x,,Developing
+World,Asia,Western Asia,,Azerbaijan,31,AZE,,x,,Developing
+World,Asia,Western Asia,,Bahrain,48,BHR,,,,Developing
+World,Asia,Western Asia,,Cyprus,196,CYP,,,,Developed
+World,Asia,Western Asia,,Georgia,268,GEO,,,,Developing
+World,Asia,Western Asia,,Iraq,368,IRQ,,,,Developing
+World,Asia,Western Asia,,Israel,376,ISR,,,,Developed
+World,Asia,Western Asia,,Jordan,400,JOR,,,,Developing
+World,Asia,Western Asia,,Kuwait,414,KWT,,,,Developing
+World,Asia,Western Asia,,Lebanon,422,LBN,,,,Developing
+World,Asia,Western Asia,,Oman,512,OMN,,,,Developing
+World,Asia,Western Asia,,Qatar,634,QAT,,,,Developing
+World,Asia,Western Asia,,Saudi Arabia,682,SAU,,,,Developing
+World,Asia,Western Asia,,State of Palestine,275,PSE,,,,Developing
+World,Asia,Western Asia,,Syrian Arab Republic,760,SYR,,,,Developing
+World,Asia,Western Asia,,Turkey,792,TUR,,,,Developing
+World,Asia,Western Asia,,United Arab Emirates,784,ARE,,,,Developing
+World,Asia,Western Asia,,Yemen,887,YEM,x,,,Developing
+World,Europe,Eastern Europe,,Belarus,112,BLR,,,,Developed
+World,Europe,Eastern Europe,,Bulgaria,100,BGR,,,,Developed
+World,Europe,Eastern Europe,,Czechia,203,CZE,,,,Developed
+World,Europe,Eastern Europe,,Hungary,348,HUN,,,,Developed
+World,Europe,Eastern Europe,,Poland,616,POL,,,,Developed
+World,Europe,Eastern Europe,,Republic of Moldova,498,MDA,,x,,Developed
+World,Europe,Eastern Europe,,Romania,642,ROU,,,,Developed
+World,Europe,Eastern Europe,,Russian Federation,643,RUS,,,,Developed
+World,Europe,Eastern Europe,,Slovakia,703,SVK,,,,Developed
+World,Europe,Eastern Europe,,Ukraine,804,UKR,,,,Developed
+World,Europe,Northern Europe,,Åland Islands,248,ALA,,,,Developed
+World,Europe,Northern Europe,Channel Islands,Guernsey,831,GGY,,,,Developed
+World,Europe,Northern Europe,Channel Islands,Jersey,832,JEY,,,,Developed
+World,Europe,Northern Europe,Channel Islands,Sark,680,,,,,Developed
+World,Europe,Northern Europe,,Denmark,208,DNK,,,,Developed
+World,Europe,Northern Europe,,Estonia,233,EST,,,,Developed
+World,Europe,Northern Europe,,Faroe Islands,234,FRO,,,,Developed
+World,Europe,Northern Europe,,Finland,246,FIN,,,,Developed
+World,Europe,Northern Europe,,Iceland,352,ISL,,,,Developed
+World,Europe,Northern Europe,,Ireland,372,IRL,,,,Developed
+World,Europe,Northern Europe,,Isle of Man,833,IMN,,,,Developed
+World,Europe,Northern Europe,,Latvia,428,LVA,,,,Developed
+World,Europe,Northern Europe,,Lithuania,440,LTU,,,,Developed
+World,Europe,Northern Europe,,Norway,578,NOR,,,,Developed
+World,Europe,Northern Europe,,Svalbard and Jan Mayen Islands,744,SJM,,,,Developed
+World,Europe,Northern Europe,,Sweden,752,SWE,,,,Developed
+World,Europe,Northern Europe,,United Kingdom of Great Britain and Northern Ireland,826,GBR,,,,Developed
+World,Europe,Southern Europe,,Albania,8,ALB,,,,Developed
+World,Europe,Southern Europe,,Andorra,20,AND,,,,Developed
+World,Europe,Southern Europe,,Bosnia and Herzegovina,70,BIH,,,,Developed
+World,Europe,Southern Europe,,Croatia,191,HRV,,,,Developed
+World,Europe,Southern Europe,,Gibraltar,292,GIB,,,,Developed
+World,Europe,Southern Europe,,Greece,300,GRC,,,,Developed
+World,Europe,Southern Europe,,Holy See,336,VAT,,,,Developed
+World,Europe,Southern Europe,,Italy,380,ITA,,,,Developed
+World,Europe,Southern Europe,,Malta,470,MLT,,,,Developed
+World,Europe,Southern Europe,,Montenegro,499,MNE,,,,Developed
+World,Europe,Southern Europe,,Portugal,620,PRT,,,,Developed
+World,Europe,Southern Europe,,San Marino,674,SMR,,,,Developed
+World,Europe,Southern Europe,,Serbia,688,SRB,,,,Developed
+World,Europe,Southern Europe,,Slovenia,705,SVN,,,,Developed
+World,Europe,Southern Europe,,Spain,724,ESP,,,,Developed
+World,Europe,Southern Europe,,The former Yugoslav Republic of Macedonia,807,MKD,,x,,Developed
+World,Europe,Western Europe,,Austria,40,AUT,,,,Developed
+World,Europe,Western Europe,,Belgium,56,BEL,,,,Developed
+World,Europe,Western Europe,,France,250,FRA,,,,Developed
+World,Europe,Western Europe,,Germany,276,DEU,,,,Developed
+World,Europe,Western Europe,,Liechtenstein,438,LIE,,,,Developed
+World,Europe,Western Europe,,Luxembourg,442,LUX,,,,Developed
+World,Europe,Western Europe,,Monaco,492,MCO,,,,Developed
+World,Europe,Western Europe,,Netherlands,528,NLD,,,,Developed
+World,Europe,Western Europe,,Switzerland,756,CHE,,,,Developed
+World,Oceania,Australia and New Zealand,,Australia,36,AUS,,,,Developed
+World,Oceania,Australia and New Zealand,,Christmas Island,162,CXR,,,,Developed
+World,Oceania,Australia and New Zealand,,Cocos (Keeling) Islands,166,CCK,,,,Developed
+World,Oceania,Australia and New Zealand,,Heard Island and McDonald Islands,334,HMD,,,,Developed
+World,Oceania,Australia and New Zealand,,New Zealand,554,NZL,,,,Developed
+World,Oceania,Australia and New Zealand,,Norfolk Island,574,NFK,,,,Developed
+World,Oceania,Melanesia,,Fiji,242,FJI,,,x,Developing
+World,Oceania,Melanesia,,New Caledonia,540,NCL,,,x,Developing
+World,Oceania,Melanesia,,Papua New Guinea,598,PNG,,,x,Developing
+World,Oceania,Melanesia,,Solomon Islands,90,SLB,x,,x,Developing
+World,Oceania,Melanesia,,Vanuatu,548,VUT,x,,x,Developing
+World,Oceania,Micronesia,,Guam,316,GUM,,,x,Developing
+World,Oceania,Micronesia,,Kiribati,296,KIR,x,,x,Developing
+World,Oceania,Micronesia,,Marshall Islands,584,MHL,,,x,Developing
+World,Oceania,Micronesia,,Micronesia (Federated States of),583,FSM,,,x,Developing
+World,Oceania,Micronesia,,Nauru,520,NRU,,,x,Developing
+World,Oceania,Micronesia,,Northern Mariana Islands,580,MNP,,,x,Developing
+World,Oceania,Micronesia,,Palau,585,PLW,,,x,Developing
+World,Oceania,Micronesia,,United States Minor Outlying Islands,581,UMI,,,,Developing
+World,Oceania,Polynesia,,American Samoa,16,ASM,,,x,Developing
+World,Oceania,Polynesia,,Cook Islands,184,COK,,,x,Developing
+World,Oceania,Polynesia,,French Polynesia,258,PYF,,,x,Developing
+World,Oceania,Polynesia,,Niue,570,NIU,,,x,Developing
+World,Oceania,Polynesia,,Pitcairn,612,PCN,,,,Developing
+World,Oceania,Polynesia,,Samoa,882,WSM,,,x,Developing
+World,Oceania,Polynesia,,Tokelau,772,TKL,,,,Developing
+World,Oceania,Polynesia,,Tonga,776,TON,,,x,Developing
+World,Oceania,Polynesia,,Tuvalu,798,TUV,x,,x,Developing
+World,Oceania,Polynesia,,Wallis and Futuna Islands,876,WLF,,,,Developing
